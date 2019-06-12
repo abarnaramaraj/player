@@ -5,11 +5,11 @@ public class Bitwisexor
 {
 	public static void main (String[] args) 
 	{
-			int a,b,c;
+			int p,b,c;
 		Scanner sc=new Scanner(System.in);
-		a=sc.nextInt();
+		p=sc.nextInt();
 		b=sc.nextInt();
-		c=(a^b);
+		c=(p^b);
 		System.out.println(c);
 		
 	}
