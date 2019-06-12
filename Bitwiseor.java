@@ -5,10 +5,10 @@ import java.io.*;
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int a,b,c;
+		int p,o,c;
 		Scanner sc=new Scanner(System.in);
-		a=sc.nextInt();
-		b=sc.nextInt();
+		p=sc.nextInt();
+		o=sc.nextInt();
 		c=a|b;
 		System.out.println(c);
 		
