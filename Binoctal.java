@@ -5,10 +5,10 @@ public class Binoctal
 {
 	public static void main (String[] args) 
 	{
-	String n;
+	String p;
 		Scanner sc=new Scanner(System.in);
-		n=sc.nextLine();
-		long l = Long.parseLong(n, 2);
+		p=sc.nextLine();
+		long l = Long.parseLong(p, 2);
        System.out.println(Long.toOctalString(l));
 	}
 }
