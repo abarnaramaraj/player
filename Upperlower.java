@@ -6,7 +6,7 @@ public class Upperlower
   
   public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
-    String s=in.nextLine();
+    String s=sc.nextLine();
     String si=s.toUpperCase();
     String vi=s.toLowerCase();
 
